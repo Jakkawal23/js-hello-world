@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   return res.send('<h1>In branch develop</h1>')
 })
 
+app.get('/jakkawal', (req, res) => {
+  return res.send('<h1>In branch feature jakkawal</h1>')
+})
+
 app.get('/max', (req, res) => {
   return res.send('<h1>ตองเอี่ยว</h1>')
 })
